@@ -21,24 +21,26 @@
 
 <body class="body-content stop-scrolling">
     <div class="content-wrap">
+
         <div class="menu-container">
-        <label for="menuCheck" class="menu-label">
-          <span class="clear-menu-btn">
-            <input id="menuCheck" type="checkbox"><span class="top"></span><span class="middle"></span><span class="bottom"></span>
-            <div class="menu-nav-container">
-              <svg id="menuNav" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25" height="260" viewbox="0 0 22.333 500" enable-background="new 0 0 22.333 500" xml:space="preserve">
-                <line id="line" fill="none" stroke="#6D6D6D" stroke-width="2" stroke-miterlimit="10" x1="10.948" y1="1" x2="10.948" y2="307"></line>
-                <circle id="ball" fill="#6D6D6D" cx="10.948" cy="28.16" r="8.636"></circle>
-              </svg>
-              <ul class="menu-list">
-                <li id="home" class="menu-item"><a href="#homeCont" class="scroll-to inactive active">Home</a></li>
-                <li id="work" class="menu-item"><a href="#workCont" class="scroll-to inactive">Work</a></li>
-                <li id="about" class="menu-item"><a href="#aboutCont" class="scroll-to inactive">About</a></li>
-              </ul>
-            </div>
-        </span>
-        </label>
+            <label for="menuCheck" class="menu-label">
+                <span class="clear-menu-btn">
+                    <input id="menuCheck" type="checkbox"><span class="top"></span><span class="middle"></span><span class="bottom"></span>
+                    <div class="menu-nav-container">
+                    <svg id="menuNav" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25" height="260" viewbox="0 0 22.333 500" enable-background="new 0 0 22.333 500" xml:space="preserve">
+                        <line id="line" fill="none" stroke="#6D6D6D" stroke-width="2" stroke-miterlimit="10" x1="10.948" y1="1" x2="10.948" y2="307"></line>
+                        <circle id="ball" fill="#6D6D6D" cx="10.948" cy="28.16" r="8.636"></circle>
+                    </svg>
+                    <ul class="menu-list">
+                        <li id="home" class="menu-item"><a href="#homeCont" class="scroll-to inactive active">Home</a></li>
+                        <li id="work" class="menu-item"><a href="#workCont" class="scroll-to inactive">Work</a></li>
+                        <li id="about" class="menu-item"><a href="#aboutCont" class="scroll-to inactive">About</a></li>
+                    </ul>
+                    </div>
+                </span>
+            </label>
         </div>
+
         <nav id="sub-menu">
             <ul>
                 <li>
@@ -77,6 +79,7 @@
                 </li>
             </ul>
         </nav>
+
         <!-- <div id="chatBox" class="chat-container"><span class="chat-header"><img src="src/img/userIcon.png" class="user-icon"><span id="minChat" class="min-chat">☓</span></span>
             <div id="content"></div>
             <div class="controls">
@@ -84,6 +87,7 @@
                 <input id="field" placeholder="Write a message">
             </div>
         </div> -->
+
         <div id="homeCont" class="content-container home-container col-12"><span id="homeContAnchor" class="container-anchor"></span>
             
             <div class="particle-bg home">
@@ -103,13 +107,16 @@
                     <path fill="none" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M1908.638,563.541            c-16.905-1.156-443.903-77.758-443.903-77.758l352.155-158.169"></path>
                 </svg>
             </div>
+
             <div class="logo-container">
                 <!-- <img src="img/dSteynLogo.png" class="logo"> -->
                 <!-- <span class="logo"></span> -->
                 <h1 class="logo-heading">darian steyn</h1>
             </div>
+
             <a href="#workCont" class="scroll-down toWork scroll-to"></a>
         </div>
+
         <!-- END OF HOME CONTAINER-->
         <div id="workCont" class="content-container work-container col-12"><span id="workContAnchor" class="container-anchor"></span>
             <div class="work-block-container col-12">
@@ -122,6 +129,7 @@
             </div>
             <a href="#aboutCont" class="scroll-down toAbout scroll-to"></a>
         </div>
+
         <!-- END OF WORK CONTAINER-->
         <div id="aboutCont" class="content-container about-container col-12"><span id="aboutContAnchor" class="container-anchor"></span>
             <div class="about-heading-container">
@@ -264,6 +272,8 @@
             </div>
         </div>
         <!-- END OF ABOUT CONTAINER-->
+
+
         <div class="project-container">
             <div class="project-overlay" id="projectCont" aria-hidden="true">
 
@@ -324,6 +334,8 @@
             </div>
         </div>
         <!-- END OF PROJECT CONTAINER-->
+
+
         <div id="loading" class="active">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="140px"
             height="140px" viewBox="0 0 400 400" enable-background="new 0 0 400 400" xml:space="preserve">
@@ -352,6 +364,7 @@
                 .then(function() { console.log("Service Worker Registered"); });
     }
     </script>
+    
 </body>
 
 </html>
