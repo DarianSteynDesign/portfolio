@@ -6,9 +6,9 @@ self.addEventListener('install', function(e) {
    caches.open('https://dariansteyndesign.github.io/portfolio/').then(function(cache) {
      return cache.addAll([
        '/',
-       '/index.html',
-       '/package-lock.json',
-       '/package.json',
+       'index.html',
+       'package-lock.json',
+       'package.json',
        '/src/css/styles.css',
        '/src/js/main.js'
      ]);
