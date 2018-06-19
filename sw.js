@@ -3,14 +3,14 @@ importScripts('cache-polyfill.js');
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('https://dariansteyndesign.github.io/portfolio/').then(function(cache) {
+   caches.open('portfolio').then(function(cache) {
      return cache.addAll([
-       '/',
-       'index.html',
-       'package-lock.json',
-       'package.json',
-       '/src/css/styles.css',
-       '/src/js/main.js'
+      //  '/',
+      //  '/index.html',
+      //  '/package-lock.json',
+      //  '/package.json',
+      //  '/src/css/styles.css',
+      //  '/src/js/main.js'
      ]);
    })
  );
